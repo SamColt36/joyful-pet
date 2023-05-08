@@ -9,33 +9,70 @@
 	<meta name="keywords" content="html, css, Github, vscode, layout, tailwindcss">
 	<meta name="description" content="Codificação de site institucional">
 	<link rel="stylesheet" href="dist/output.css">
+	<link rel="stylesheet" href="dist/style.css">
+	<link rel="shortcut icon" href="fav-icon.png" type="image/x-icon">
 	<title>Joyful Pet</title>
 	<link rel="icon" type="png" href="fav-icon.png">
-	<link rel="stylesheet" href="dist/output.css">
-	<link rel="shortcut icon" href="fav-icon.png" type="image/x-icon">
+
 </head>
 
-<body class="bg-laranja font-sans">
-	<header
-		class="relative mx-auto px-2 bg-white max-w-6xl h-20 flex items-center  justify-center flex-nowrap sm:flex-wrap">
-		
-		<div class="relative flex justify-center items-center shrink-0 mr-auto sm:block sm:w-full">
-			<img src="./src/assets/logo-joyful-pet.png" alt="Logo corporativo Joyful Pet" class="h-12 sm:h-8 ">
-			<p class="hidden sm:px-8 sm:py-2 sm:block sm:font-bold">+385 35-23-34-45-99</p>
-		</figure>
+<body class="font-sans">
+	<header>
+		<!--nav-->
+		<div class="relative mx-auto px-2 bg-white max-w-6xl h-20 flex items-center justify-center">
+			<!--logo-->
+			<div class="flex justify-center shrink-0 items-center mr-auto ">
+				<img src="./src/assets/logo-joyful-pet.png" alt="Logo corporativo Joyful Pet" class="h-12">
+			</div>
+			<!--/logo-->
 
-		<div class="text-black flex shrink-0 space-x-10 sm:space-x-2">
-			<a href="" class="text-laranja sm:text-xs">Главная</a>
-			<a href="" class="sm:text-xs">Друзья</a>
-			<a href="" class="sm:text-xs">О сервисе</a>
-			<a href="" class="sm:text-xs">Контакты</a>
+			<!--links-->
+			<div class="xs:hidden sm:hidden flex items-center justify-between">
+				<div class="text-black block space-x-10">
+					<a href="" class="text-laranja sm:text-xs">Главная</a>
+					<a href="" class="sm:text-xs">Друзья</a>
+					<a href="" class="sm:text-xs">О сервисе</a>
+					<a href="" class="sm:text-xs">Контакты</a>
+				</div>
+
+				<div class="flex shrink-0 justify-between">
+					<p class="px-8 py-2">+385 35-23-34-45-99</p>
+					<p class="px-8 py-2 border-2 border-laranja text-laranja	">Заказать звонок</p>
+				</div>
+			</div>
+			<!--/links-->
+
+			<!--Menu sandwich-->
+			<input type="checkbox" name="checkbox-mobile" id="checkbox-mobile" class="hidden">
+
+			<label for="checkbox-mobile" class="hidden xs:block sm:block z-20 mr-4">
+				<svg class="text-black h-full transition-transform ease-in-out duration-700" width="30" height="30"
+					viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round"
+					stroke-linejoin="round">
+					<path stroke="none" d="M0 0h24v24H0z" />
+					<line x1="4" y1="6" x2="20" y2="6" />
+					<line x1="4" y1="12" x2="20" y2="12" />
+					<line x1="4" y1="18" x2="20" y2="18" />
+				</svg>
+			</label>
+				<!--Menu oculto-->
+			<div
+				class="content pt-20 pr-4 bg-black/90 w-screen h-screen flex flex-col justify-start items-end fixed top-0 right-0 z-10 text-white text-xl space-y-3 transition-transform ease-in-out duration-700">
+				<a href="" class="text-laranja">Главная</a>
+				<a href="">Друзья</a>
+				<a href="">О сервисе</a>
+				<a href="">Контакты</a>
+			</div>
+				<!--/Menu oculto-->
 		</div>
-		
-		<div class="flex shrink-0 justify-between ml-auto sm:hidden">
-			<p class="px-8 py-2">+385 35-23-34-45-99</p>
-			<p class="px-8 py-2 border-2 border-laranja text-laranja	">Заказать звонок</p>
+		<!--/nav-->
+		<div class="hidden xs:flex sm:flex justify-evenly">
+			<p class="py-2 font-bold text-base">+385 35-23-34-45-99</p>
+			<p class="p-2 border-2 border-laranja text-laranja break-normal text-sm">Заказать звонок</p>
 		</div>
 	</header>
+
+
 </body>
 
 </html>

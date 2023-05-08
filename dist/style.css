@@ -1,0 +1,12 @@
+.content {
+	transform: translateX(100vw);
+}
+
+#checkbox-mobile:checked+label+.content {
+	transform: translateX(0);
+}
+
+#checkbox-mobile:checked+label>svg {
+	color: white;
+	transform: rotate(90deg);
+}
