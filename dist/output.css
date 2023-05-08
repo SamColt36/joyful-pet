@@ -896,3 +896,29 @@ video {
     color: rgb(255 255 255 / var(--tw-text-opacity));
   }
 }
+
+@media (min-width: 426px) and (max-width: 767px) {
+  .md\:hidden {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .lg\:hidden {
+    display: none;
+  }
+
+  .lg\:space-x-6 > :not([hidden]) ~ :not([hidden]) {
+    --tw-space-x-reverse: 0;
+    margin-right: calc(1.5rem * var(--tw-space-x-reverse));
+    margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
+  }
+
+  .lg\:pr-0 {
+    padding-right: 0px;
+  }
+
+  .lg\:font-bold {
+    font-weight: 700;
+  }
+}
