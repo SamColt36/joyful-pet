@@ -1,3 +1,13 @@
 Projeto disponível no site <https://www.figma.com/community/file/1087077276162187319>
 
-Ao iniciar o Projeto lembrar de rodar no bash 'npm init'
+- Ao iniciar o Projeto lembrar de rodar no bash:
+npm init
+npx tailwindcss init
+
+Adicione os caminhos a todos os seus arquivos de modelo em seu arquivo tailwind config.js. Depois criar um arquivo de estilo com as diretivas a seguir:
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+Por último rodar o code abaixo lembrando de alterar os caminhos
+npx tailwind.config.js -i ./src/input.css -o ./dist/output.css --watch

@@ -1,3 +1,10 @@
+/*GERAIS*/
+.clearfix {
+	clear: both;
+	display: table;
+}
+/*------*/
+/*HEADER*/
 .content {
 	transform: translateX(100vw);
 }
@@ -10,3 +17,13 @@
 	color: white;
 	transform: rotate(90deg);
 }
+
+/*------*/
+/*BANNER*/
+.box-dog {
+	background-image: url(/src/assets/dog-face-png-4\ 1.png);
+	background-size: auto 200%;
+	background-position: center 10px;
+	background-repeat: no-repeat;
+}
+/*------*/
