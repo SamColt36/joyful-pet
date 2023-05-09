@@ -3,6 +3,7 @@
 	clear: both;
 	display: table;
 }
+
 /*------*/
 /*HEADER*/
 .content {
@@ -24,16 +25,18 @@
 	background-image: url(/src/assets/dog-face-png-4\ 1.png);
 	background-size: auto 200%;
 	background-position: center 10px;
-	background-repeat: no-repeat;
 }
+
 #container-box-dog {
 	z-index: 50;
 }
+
 #rec {
-	bottom: -3rem;
-	right: -3rem;
+	bottom: -2.5rem;
+	right: -2.5rem;
 	width: 25rem;
 	height: 25rem;
 	z-index: -50;
 }
+
 /*------*/
