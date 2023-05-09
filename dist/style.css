@@ -26,4 +26,14 @@
 	background-position: center 10px;
 	background-repeat: no-repeat;
 }
+#container-box-dog {
+	z-index: 50;
+}
+#rec {
+	bottom: -3rem;
+	right: -3rem;
+	width: 25rem;
+	height: 25rem;
+	z-index: -50;
+}
 /*------*/
