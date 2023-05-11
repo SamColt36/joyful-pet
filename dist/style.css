@@ -3,7 +3,12 @@
 	clear: both;
 	display: table;
 }
-
+.h-98 {
+	height: 28rem;
+}
+.h-100 {
+	height: 32rem;
+}
 /*------*/
 /*HEADER*/
 .content {
