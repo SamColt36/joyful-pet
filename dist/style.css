@@ -3,12 +3,6 @@
 	clear: both;
 	display: table;
 }
-.h-98 {
-	height: 28rem;
-}
-.h-100 {
-	height: 32rem;
-}
 /*------*/
 /*HEADER*/
 .content {
@@ -20,28 +14,20 @@
 }
 
 #checkbox-mobile:checked+label>svg {
-	color: white;
+	color: red;
 	transform: rotate(90deg);
 }
-
+#svg {
+	z-index: 50 !important;
+}
 /*------*/
 /*BANNER*/
-.box-dog {
-	background-image: url(/src/assets/dog-face-png-4\ 1.png);
-	background-size: auto 200%;
-	background-position: center 10px;
+#box-dog {
+	width: calc(100vw - 2.5rem);
 }
-
-#container-box-dog {
-	z-index: 50;
-}
-
 #rec {
 	bottom: -2.5rem;
 	right: -2.5rem;
-	width: 25rem;
-	height: 25rem;
 	z-index: -50;
 }
-
 /*------*/

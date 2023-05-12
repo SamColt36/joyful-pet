@@ -1,8 +1,12 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: [],
+  content: ["*.{html,js}"],
   theme: {
     extend: {
+      spacing: {
+        98: "28rem",
+        100: "32rem",
+      },
       screens: {
         xl: { min: "1024px" },
         // => @media and (min-width: 1024px) and (max-width: 1279px)
@@ -24,3 +28,4 @@ module.exports = {
   },
   plugins: [],
 };
+
