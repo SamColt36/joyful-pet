@@ -3,9 +3,6 @@
 
 
 # 🐕‍🦺 Projeto Joyful Pet
-![](https://4.bp.blogspot.com/-LXm5dd2wA-E/Txy6ZgSle0I/AAAAAAAAAQ4/G2jb6-Exk-M/s1600/tumblr_ltmxvz9g4y1qbi0koo2_r1_400.gif)
-
-
 🚀 Bem-vindo ao projeto Joyful Pet do curso Front-End da formação **Full Stack** - DankiCode! 🚀
 
 O objetivo deste projeto é **codificar** uma interface criada no [figma]((https://www.figma.com/file/SRd2nqKibIqKeWrmiYqLdj/site-(Community)?type=design&node-id=0-1&t=AMFw1HOZ8ENW5Ufh-0)) utilizando **TailwindCSS** . A interface, que diga-se de passagem está muito bem feita, contém telas para: desktop, tablet e mobile, o que facilita muito na hora de codar.
@@ -42,4 +39,7 @@ Este projeto está ativo e segue em produção. Te convido a vir junto comigo co
 ## Considerações
 
 Até o momento o tailwindcss tem se mostrado muito útil na estilização dos elementos. Algumas coisas ainda estou aprendendo, como o uso de seletores e outras regras, p.ex.: `#checkbox-mobile:checked+label+.content {}`.
+
+![](https://4.bp.blogspot.com/-LXm5dd2wA-E/Txy6ZgSle0I/AAAAAAAAAQ4/G2jb6-Exk-M/s1600/tumblr_ltmxvz9g4y1qbi0koo2_r1_400.gif)
+
 
