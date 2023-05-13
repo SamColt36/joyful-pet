@@ -10,4 +10,4 @@ Adicione os caminhos a todos os seus arquivos de modelo em seu arquivo tailwind 
 @tailwind utilities;
 
 Por último rodar o code abaixo lembrando de alterar os caminhos
-npx tailwind.config.js -i ./src/input.css -o ./dist/output.css --watch
+npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
