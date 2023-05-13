@@ -21,7 +21,7 @@
 		<!--nav-->
 		<div class="relative mx-auto px-2 bg-white max-w-6xl h-20 flex items-center justify-center">
 			<!--logo-->
-			<div class="flex justify-center shrink-0 items-center mr-auto ">
+			<div class="relative flex justify-center shrink-0 items-center mr-auto z-10">
 				<img src="./src/assets/logo-joyful-pet.png" alt="Logo corporativo Joyful Pet" class="h-12">
 			</div>
 			<!--/logo-->
@@ -45,8 +45,8 @@
 			<!--Menu sandwich-->
 			<input type="checkbox" name="checkbox-mobile" id="checkbox-mobile" class="hidden">
 
-			<label for="checkbox-mobile" class="hidden sm:block mr-4">
-				<svg class="text-black h-full transition-transform ease-in-out duration-700 z-40" id="svg" width="30" height="30"
+			<label for="checkbox-mobile" class="hidden sm:block mr-4 z-40 h-full">
+				<svg class="relaive text-black h-full transition-transform ease-in-out duration-700" id="svg" width="30" height="30"
 					viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round"
 					stroke-linejoin="round">
 					<path stroke="none" d="M0 0h24v24H0z" />
@@ -57,7 +57,7 @@
 			</label>
 			<!--Menu oculto-->
 			<div
-				class="content pt-20 pr-4 bg-black/90 w-screen h-screen flex flex-col justify-start items-end fixed top-0 right-0 z-30 text-white text-xl space-y-3 transition-transform ease-in-out duration-700">
+				class="content pt-20 pr-4 bg-black/90 w-screen h-screen flex flex-col justify-start items-end fixed top-0 right-0 text-white text-xl space-y-3 transition-transform ease-in-out duration-700 z-30 sm:text-xl">
 				<a href="" class="text-laranja">Главная</a>
 				<a href="">Друзья</a>
 				<a href="">О сервисе</a>
@@ -83,7 +83,7 @@
 				</div>
 			</div>
 
-			<div class="w-1/2 h-100 sm:h-96 float-right sm:bg-azul sm:float-none" id="box-dog">
+			<div class="w-1/2 h-100 sm:h-96 float-right sm:bg-azul sm:w-bdm sm:float-none" id="box-dog">
 				<div class="relative">
 					<div class="h-100 sm:h-96 flex items-end">
 						<img src="/src/assets/dog-face-png-4 1.png" alt="" class="h-98 sm:h-80 mx-auto">

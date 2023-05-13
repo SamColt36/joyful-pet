@@ -3,31 +3,40 @@
 	clear: both;
 	display: table;
 }
+
 /*------*/
 /*HEADER*/
 .content {
 	transform: translateX(100vw);
 }
 
+#checkbox-mobile:checked~html,
+#checkbox-mobile:checked~body {
+	overflow: hidden;
+}
+
 #checkbox-mobile:checked+label+.content {
 	transform: translateX(0);
 }
 
+#checkbox-mobile:checked+label,
 #checkbox-mobile:checked+label>svg {
-	color: red;
+	position: fixed;
+	right: 1rem;
+	height: 3rem;
+}
+
+#checkbox-mobile:checked+label>svg {
+	color: white;
 	transform: rotate(90deg);
 }
-#svg {
-	z-index: 50 !important;
-}
+
 /*------*/
 /*BANNER*/
-#box-dog {
-	width: calc(100vw - 2.5rem);
-}
 #rec {
 	bottom: -2.5rem;
 	right: -2.5rem;
 	z-index: -50;
 }
+
 /*------*/

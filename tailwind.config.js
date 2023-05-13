@@ -6,6 +6,7 @@ module.exports = {
       spacing: {
         98: "28rem",
         100: "32rem",
+        bdm: "calc(100vw - 2.5rem)",
       },
       screens: {
         xl: { min: "1024px" },
