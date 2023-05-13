@@ -30,13 +30,11 @@
 	color: white;
 	transform: rotate(90deg);
 }
-
 /*------*/
 /*BANNER*/
 #rec {
 	bottom: -2.5rem;
 	right: -2.5rem;
-	z-index: -50;
+	z-index: -100;
 }
-
 /*------*/

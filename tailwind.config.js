@@ -6,7 +6,9 @@ module.exports = {
       spacing: {
         98: "28rem",
         100: "32rem",
-        bdm: "calc(100vw - 2.5rem)",
+        102: "34rem",
+        110: "40rem",
+        'bdm': "calc(100vw - 2.5rem)",
       },
       screens: {
         xl: { min: "1024px" },
@@ -18,8 +20,8 @@ module.exports = {
         md: { min: "426px", max: "767px" },
         // => @media and (min-width: 426px) and (max-width: 767px)
 
-        sm: { min: "320px", max: "425px" },
-        // => @media and (min-width: 320px) and (max-width: 425px)
+        sm: { min: "300px", max: "425px" },
+        // => @media and (min-width: 300px) and (max-width: 425px)
       },
       colors: {
         azul: "#89E8EC",

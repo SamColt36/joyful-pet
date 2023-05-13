@@ -19,7 +19,7 @@
 <body class="font-sans">
 	<header>
 		<!--nav-->
-		<div class="relative mx-auto px-2 bg-white max-w-6xl h-20 flex items-center justify-center">
+		<div class="relative mx-auto px-2 max-w-6xl h-20 flex items-center justify-center ">
 			<!--logo-->
 			<div class="relative flex justify-center shrink-0 items-center mr-auto z-10">
 				<img src="./src/assets/logo-joyful-pet.png" alt="Logo corporativo Joyful Pet" class="h-12">
@@ -27,17 +27,17 @@
 			<!--/logo-->
 
 			<!--links-->
-			<div class="xs:hidden sm:hidden flex items-center justify-between">
-				<div class="text-black block space-x-10 lg:space-x-6">
-					<a href="" class="text-laranja sm:text-xs">Главная</a>
-					<a href="" class="sm:text-xs">Друзья</a>
-					<a href="" class="sm:text-xs">О сервисе</a>
-					<a href="" class="sm:text-xs">Контакты</a>
+			<div class="xs:hidden sm:hidden md:hidden flex items-center justify-between">
+				<div class="text-black block space-x-10 lg:space-x-4">
+					<a href="" class="text-laranja sm:text-xs md:text-sm lg:text-lg">Главная</a>
+					<a href="" class="sm:text-xs md:text-sm lg:text-base">Друзья</a>
+					<a href="" class="sm:text-xs md:text-sm lg:text-base">О сервисе</a>
+					<a href="" class="sm:text-xs md:text-sm lg:text-base">Контакты</a>
 				</div>
 
-				<div class="flex shrink-0 justify-between">
-					<p class="px-8 lg:pr-0 py-2 lg:font-bold">+385 35-23-34-45-99</p>
-					<p class="px-8 py-2 border-2 border-laranja text-laranja lg:hidden">Заказать звонок</p>
+				<div class="flex shrink-0 justify-between items-center">
+					<p class="px-8 lg:pl-4 lg:font-extrabold lg:text-lg">+385 35-23-34-45-99</p>
+					<p class="px-8 border-2 border-laranja text-laranja lg:hidden">Заказать звонок</p>
 				</div>
 			</div>
 			<!--/links-->
@@ -45,10 +45,10 @@
 			<!--Menu sandwich-->
 			<input type="checkbox" name="checkbox-mobile" id="checkbox-mobile" class="hidden">
 
-			<label for="checkbox-mobile" class="hidden sm:block mr-4 z-40 h-full">
-				<svg class="relaive text-black h-full transition-transform ease-in-out duration-700" id="svg" width="30" height="30"
-					viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round"
-					stroke-linejoin="round">
+			<label for="checkbox-mobile" class="hidden sm:block md:block mr-4 z-40 h-full">
+				<svg class="relaive text-black h-full transition-transform ease-in-out duration-700" id="svg" width="30"
+					height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
+					stroke-linecap="round" stroke-linejoin="round">
 					<path stroke="none" d="M0 0h24v24H0z" />
 					<line x1="4" y1="6" x2="20" y2="6" />
 					<line x1="4" y1="12" x2="20" y2="12" />
@@ -66,29 +66,35 @@
 			<!--/Menu oculto-->
 		</div>
 		<!--/nav-->
-		<div class="hidden xs:flex sm:flex justify-evenly">
+		<div class="hidden xs:flex sm:flex md:flex justify-evenly">
 			<p class="py-2 font-bold text-base">+385 35-23-34-45-99</p>
 			<p class="p-2 border-2 border-laranja text-laranja break-normal text-sm">Заказать звонок</p>
 		</div>
 	</header>
 	<!--BANNER-->
-	<div class="p-10 sm:p-0">
-		<div class="bg-azul sm:bg-transparent max-w-6xl mx-auto h-min">
-			<div class="w-1/2 sm:w-full h-100 sm:h-96 flex items-center justify-center float-left sm:float-none sm:mt-10">
-				<div class="space-y-4 sm:space-y-6 w-fit mx-auto">
-					<h1 class="text-3xl font-extrabold">Твой новый друг<br>с доставкой на дом</h1>
-					<p class="max-w-xs sm:text-lg">Онлайн-магазин домашних животных подарит тебе нового друга в несколько кликов.
+	<div class="p-10 sm:p-0 md:p-0 lg:px-0">
+		<div class="bg-azul sm:bg-transparent md:bg-transparent lg:bg-transparent max-w-6xl mx-auto h-min">
+			<div
+				class="w-1/2 h-100 flex items-center justify-center float-left sm:w-full sm:h-96 sm:float-none sm:mt-10 md:w-full
+				md:h-96 md:float-none md:mt-10 lg:w-full lg:float-none lg:px-10 ">
+				<div class="space-y-4 sm:space-y-6 md:space-y-6 lg:space-y-9 lg:w-full w-fit mx-auto">
+					<h1 class="text-3xl lg:text-6xl font-extrabold">Твой новый друг<br>с доставкой на дом</h1>
+					<p class="max-w-xs sm:text-lg md:text-lg lg:text-2xl lg:max-w-md">Онлайн-магазин домашних животных подарит тебе
+						нового друга в несколько кликов.
 						Действуй!</p>
-					<a href="" class="inline-block bg-laranja py-3 px-5 sm:py-6 sm:px-10 sm:text-xl font-bold text-white">Посмотреть друзей</a>
+					<a href=""
+						class="inline-block bg-laranja py-3 px-5 sm:py-6 sm:px-10 sm:text-xl m:py-6 md:px-10 md:text-xl lg:py-7 lg:px-16 lg:text-2xl font-bold text-white">Посмотреть
+						друзей</a>
 				</div>
 			</div>
 
-			<div class="w-1/2 h-100 sm:h-96 float-right sm:bg-azul sm:w-bdm sm:float-none" id="box-dog">
+			<div class="w-1/2 h-100 lg:h-110 sm:h-96 sm:bg-azul sm:w-bdm sm:float-none md:h-96 md:bg-azul md:w-bdm md:float-none lg:bg-azul lg:float-none lg:w-bdm float-right"
+				id="box-dog">
 				<div class="relative">
-					<div class="h-100 sm:h-96 flex items-end">
-						<img src="/src/assets/dog-face-png-4 1.png" alt="" class="h-98 sm:h-80 mx-auto">
+					<div class="h-100 sm:h-96 md:h-96 lg:h-110 flex items-end">
+						<img src="/src/assets/dog-face-png-4 1.png" alt="" class="h-98 sm:h-80 md:h-80 lg:h-110 mx-auto">
 					</div>
-					<span id="rec" class="w-96 h-96 bg-laranja absolute sm:w-full sm:h-full"></span>
+					<span id="rec" class="w-96 h-96 bg-laranja absolute sm:w-full sm:h-full md:w-full md:h-full lg:w-full lg:h-full"></span>
 				</div>
 			</div>
 
@@ -100,7 +106,7 @@
 	<!--Tags apenas de auxílio para rolagem de tela vertical-->
 	<br><br><br><br><br><br><br><br><br><br><br><br><br>
 	<br><br><br><br><br><br><br><br><br><br><br><br><br>
-	
+
 </body>
 
 </html>
