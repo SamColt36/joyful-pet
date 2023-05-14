@@ -30,6 +30,7 @@
 	color: white;
 	transform: rotate(90deg);
 }
+
 /*------*/
 /*BANNER*/
 #rec {
@@ -37,4 +38,21 @@
 	right: -2.5rem;
 	z-index: -100;
 }
+
 /*------*/
+/*SCROLL PRODUCT*/
+.scroll-product::-webkit-scrollbar {
+	height: 15px;
+	/* largura da scrollbar */
+}
+
+.scroll-product::-webkit-scrollbar-track {
+	background-color: transparent;
+	/* cor de fundo da track */
+}
+
+.scroll-product::-webkit-scrollbar-thumb:horizontal {
+	background-color: transparent;
+	/* cor do thumb (a barra de rolagem em si) */
+}
+/*--------------*/
