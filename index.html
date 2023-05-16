@@ -36,7 +36,7 @@
 				</div>
 
 				<div class="flex shrink-0 justify-between items-center">
-					<p class="px-8 lg:pl-4 lg:font-extrabold lg:text-lg">+385 35-23-34-45-99</p>
+					<p class="px-8 lg:pl-4 lg:px-0 lg:font-extrabold lg:text-lg">+385 35-23-34-45-99</p>
 					<p class="px-8 py-2 border-2 border-laranja text-laranja lg:hidden">Заказать звонок</p>
 				</div>
 			</div>
@@ -106,17 +106,18 @@
 	<!--/Banner-->
 
 	<!--Section Product-->
-	<div class="mx-auto px-2 max-w-6xl mt-20">
-		<div class="flex items-end">
-			<h3 class="text-2xl font-extrabold">Каталог товаров</h3>
-			<div class="flex space-x-7 px-14">
+	<div class="mx-auto px-2 max-w-6xl mt-20 sm:px-5 md:px-5 lg:px-10">
+		<div class="flex items-end sm:block md:block lg:justify-between">
+			<h3 class="text-2xl font-extrabold sm:block sm:text-3xl md:block md:text-3xl lg:text-4xl">Каталог товаров</h3>
+			<div
+				class="flex space-x-7 px-14 sm:block sm:space-x-2 sm:py-2 sm:text-xl sm:px-0 md:text-xl md:px-0 lg:px-0 lg:text-lg">
 				<a href="" class="text-laranja">Все</a>
 				<a href="">Игрушки</a>
 				<a href="">Ошейники</a>
 				<a href="">Корм</a>
-				<a href="">
+				<a href="" class="sm:hidden md:hidden">
 					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2"
-						stroke="currentColor" class="w-6 h-6">
+						stroke="currentColor" class="w-6 h-6 lg:text-lg">
 						<path stroke-linecap="round" stroke-linejoin="round"
 							d="M6.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM12.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0zM18.75 12a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
 					</svg>
@@ -126,18 +127,20 @@
 		<!--Container Carousel-->
 		<div class="relative">
 			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1"
-				stroke="currentColor" class="w-10 h-10 absolute top-1/2 -left-14 z-40 -translate-y-1/2 cursor-pointer hover:bg-black/10 
-				transition-all duration-100" id="carousel-prev">
+				stroke="currentColor"
+				class="w-10 h-10 absolute top-1/2 -left-14 z-40 -translate-y-1/2 cursor-pointer sm:hidden md:hidden lg:hidden"
+				id="carousel-prev">
 				<path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
 			</svg>
 
 			<!--Content Carousel-->
-			<div class="scroll-product snap-mandatory snap-x whitespace-nowrap relative flex space-x-5 px-1 shrink-0 overflow-x-scroll"
+			<div class="scroll-product snap-mandatory snap-x whitespace-nowrap relative flex space-x-5 px-1 overflow-x-scroll sm:w-11/12 sm:mx-auto md:w-11/12 md:mx-auto"
 				id="carousel-content">
 				<!--Product 1-->
-				<div class="inline-block p-5 rounded bg-white drop-shadow-lg shadow-black space-y-2 my-10 w-100">
-					<div class="relative h-52 w-52 flex justify-center items-center mx-auto">
-						<img src="./src/assets/pngwing1.png" alt="" class="h-3/4">
+				<div
+					class="inline-block p-5 rounded bg-white drop-shadow-lg shadow-black space-y-2 my-10 min-w-100 sm:scrol-center">
+					<div class="relative h-52 w-52 flex justify-center items-center">
+						<img src="./src/assets/pngwing1.png" alt="" class="h-52">
 					</div>
 					<h4 class="text-center font-extrabold text-lg">Собачий ошейник<h4>
 							<div class="flex text-laranja">
@@ -152,7 +155,8 @@
 				</div>
 				<!--/Product 1-->
 				<!--Product 2-->
-				<div class="inline-block p-5 rounded bg-white drop-shadow-lg shadow-black space-y-2 my-10 w-100">
+				<div
+					class="inline-block p-5 rounded bg-white drop-shadow-lg shadow-black space-y-2 my-10 min-w-100 sm:scrol-center">
 					<div class="relative h-52 w-52 flex justify-center items-center mx-auto">
 						<img src="./src/assets/pngwing2.png" alt="" class="h-3/4">
 					</div>
@@ -169,7 +173,8 @@
 				</div>
 				<!--/Product 2-->
 				<!--Product 3-->
-				<div class="inline-block p-5 rounded bg-white drop-shadow-lg shadow-black space-y-2 my-10 w-100">
+				<div
+					class="inline-block p-5 rounded bg-white drop-shadow-lg shadow-black space-y-2 my-10 min-w-100 sm:scrol-center">
 					<div class="relative h-52 w-52 flex justify-center items-center mx-auto">
 						<img src="./src/assets/pngwing3.png" alt="" class="h-3/4">
 					</div>
@@ -186,7 +191,8 @@
 				</div>
 				<!--/Product 3-->
 				<!--Product 4-->
-				<div class="inline-block p-5 rounded bg-white drop-shadow-lg shadow-black space-y-2 my-10 w-100">
+				<div
+					class="inline-block p-5 rounded bg-white drop-shadow-lg shadow-black space-y-2 my-10 min-w-100 sm:scrol-center">
 					<div class="relative h-52 w-52 flex justify-center items-center mx-auto">
 						<img src="./src/assets/pngwing4.png" alt="" class="h-3/4">
 					</div>
@@ -203,7 +209,8 @@
 				</div>
 				<!--/Product 4-->
 				<!--Product 5-->
-				<div class="inline-block p-5 rounded bg-white drop-shadow-lg shadow-black space-y-2 my-10 w-100">
+				<div
+					class="inline-block p-5 rounded bg-white drop-shadow-lg shadow-black space-y-2 my-10 min-w-100 sm:scrol-center">
 					<div class="relative h-52 w-52 flex justify-center items-center mx-auto">
 						<img src="./src/assets/pngwing5.png" alt="" class="h-3/4">
 					</div>
@@ -220,7 +227,8 @@
 				</div>
 				<!--/Product 5-->
 				<!--Product 6-->
-				<div class="inline-block p-5 rounded bg-white drop-shadow-lg shadow-black space-y-2 my-10 w-100">
+				<div
+					class="inline-block p-5 rounded bg-white drop-shadow-lg shadow-black space-y-2 my-10 min-w-100 sm:scrol-center">
 					<div class="relative h-52 w-52 flex justify-center items-center mx-auto">
 						<img src="./src/assets/pngwing6.png" alt="" class="h-3/4">
 					</div>
@@ -237,7 +245,8 @@
 				</div>
 				<!--/Product 6-->
 				<!--Product 7-->
-				<div class="inline-block p-5 rounded bg-white drop-shadow-lg shadow-black space-y-2 my-10 w-100">
+				<div
+					class="inline-block p-5 rounded bg-white drop-shadow-lg shadow-black space-y-2 my-10 min-w-100 sm:scrol-center">
 					<div class="relative h-52 w-52 flex justify-center items-center mx-auto">
 						<img src="./src/assets/pngwing7.png" alt="" class="h-3/4">
 					</div>
@@ -254,7 +263,8 @@
 				</div>
 				<!--/Product 7-->
 				<!--Product 8-->
-				<div class="inline-block p-5 rounded bg-white drop-shadow-lg shadow-black space-y-2 my-10 w-100">
+				<div
+					class="inline-block p-5 rounded bg-white drop-shadow-lg shadow-black space-y-2 my-10 min-w-100 sm:scrol-center">
 					<div class="relative h-52 w-52 flex justify-center items-center mx-auto">
 						<img src="./src/assets/pngwing8.png" alt="" class="h-3/4">
 					</div>
@@ -276,13 +286,13 @@
 			<!--/Content Carousel-->
 			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1"
 				stroke="currentColor"
-				class="carousel-next w-10 h-10 absolute top-1/2 -right-14 z-40 -translate-y-1/2 cursor-pointer"
+				class="carousel-next w-10 h-10 absolute top-1/2 -right-14 z-40 -translate-y-1/2 cursor-pointer sm:hidden md:hidden lg:hidden"
 				id="carousel-next">
 				<path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
 			</svg>
 		</div>
 		<!--/Container Carousel-->
-		<span class="w-96 h-1 bg-coral flex justify-center items-center mx-auto">
+		<span class="w-96 sm:w-80 h-1 bg-coral flex justify-center items-center mx-auto">
 			<span class="w-10 h-3 bg-coraldark"></span>
 		</span>
 	</div>
