@@ -548,6 +548,14 @@ video {
   top: 50%;
 }
 
+.-left-14 {
+  left: -3.5rem;
+}
+
+.-right-14 {
+  right: -3.5rem;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -709,6 +717,14 @@ video {
   cursor: pointer;
 }
 
+.snap-x {
+  scroll-snap-type: x var(--tw-scroll-snap-strictness);
+}
+
+.snap-mandatory {
+  --tw-scroll-snap-strictness: mandatory;
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -818,9 +834,9 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-black {
+.bg-red-300 {
   --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+  background-color: rgb(252 165 165 / var(--tw-bg-opacity));
 }
 
 .p-10 {
@@ -969,12 +985,107 @@ video {
   transition-duration: 150ms;
 }
 
+.transition-all {
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
 .duration-700 {
   transition-duration: 700ms;
 }
 
+.duration-100 {
+  transition-duration: 100ms;
+}
+
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hover\:-left-14:hover {
+  left: -3.5rem;
+}
+
+.hover\:-left-16:hover {
+  left: -4rem;
+}
+
+.hover\:-left-1:hover {
+  left: -0.25rem;
+}
+
+.hover\:h-12:hover {
+  height: 3rem;
+}
+
+.hover\:w-12:hover {
+  width: 3rem;
+}
+
+.hover\:rounded:hover {
+  border-radius: 0.25rem;
+}
+
+.hover\:rounded-full:hover {
+  border-radius: 9999px;
+}
+
+.hover\:bg-laranja:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(233 71 60 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-red-300:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 165 165 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-black:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-black\/25:hover {
+  background-color: rgb(0 0 0 / 0.25);
+}
+
+.hover\:bg-black\/75:hover {
+  background-color: rgb(0 0 0 / 0.75);
+}
+
+.hover\:bg-black\/5:hover {
+  background-color: rgb(0 0 0 / 0.05);
+}
+
+.hover\:bg-black\/10:hover {
+  background-color: rgb(0 0 0 / 0.1);
+}
+
+.hover\:bg-black\/20:hover {
+  background-color: rgb(0 0 0 / 0.2);
+}
+
+.hover\:font-bold:hover {
+  font-weight: 700;
+}
+
+.hover\:font-extrabold:hover {
+  font-weight: 800;
+}
+
+.hover\:text-black:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:outline-8:hover {
+  outline-width: 8px;
 }
 
 @media (min-width: 300px) and (max-width: 425px) {

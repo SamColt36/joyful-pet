@@ -55,4 +55,8 @@
 	background-color: transparent;
 	/* cor do thumb (a barra de rolagem em si) */
 }
+
+.scroll-product>div {
+	scroll-snap-align: start;
+}
 /*--------------*/

@@ -13,6 +13,7 @@
 	<link rel="shortcut icon" href="fav-icon.png" type="image/x-icon">
 	<title>Joyful Pet</title>
 	<link rel="icon" type="png" href="fav-icon.png">
+	<script src="./src/js/carousel.js"></script>
 </head>
 
 <body class="font-sans">
@@ -105,6 +106,7 @@
 	<!--/BANNER-->
 
 	<div class="mx-auto px-2 max-w-6xl">
+
 		<div class="flex items-end">
 			<h3 class="text-2xl font-extrabold">Каталог товаров</h3>
 			<div class="flex space-x-7 px-14">
@@ -124,20 +126,23 @@
 		<!--CONTAINER CARROSSEL-->
 		<div class="relative">
 			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-				stroke="currentColor" class="w-10 h-10 absolute top-1/2 -left-10 z-40 -translate-y-1/2"
+				stroke="currentColor" class="w-10 h-10 absolute top-1/2 -left-14 z-40 -translate-y-1/2 cursor-pointer hover:bg-black/10 
+				transition-all duration-100"
 				id="carousel-prev">
 				<path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
 			</svg>
+
 			<!--CONTENT CARROSSEL-->
-			<div class="scroll-product relative flex space-x-5 px-1 shrink-0 overflow-x-scroll" id="carousel-content">
+			<div class="scroll-product snap-mandatory snap-x whitespace-nowrap relative flex space-x-5 px-1 shrink-0 overflow-x-scroll"
+				id="carousel-content">
 				<!--PRODUCT 1-->
 				<div class="inline-block p-5 rounded bg-white drop-shadow-lg shadow-black space-y-2 my-10 w-100">
 					<div class="relative h-52 w-52 flex justify-center items-center mx-auto">
 						<img src="./src/assets/pngwing1.png" alt="" class="h-3/4">
 					</div>
-					<h4 class="text-center font-extrabold text-xl">Собачий ошейник<h4>
+					<h4 class="text-center font-extrabold text-lg">Собачий ошейник<h4>
 							<div class="flex text-laranja">
-								<h4 class="font-extrabold text-lg">59 руб.</h4>
+								<h4 class="font-extrabold text-base">59 руб.</h4>
 								<p class="line-through align-top text-xs  font-extrabold">65 руб.</p>
 								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
 									stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-auto cursor-pointer">
@@ -152,9 +157,9 @@
 					<div class="relative h-52 w-52 flex justify-center items-center mx-auto">
 						<img src="./src/assets/pngwing2.png" alt="" class="h-3/4">
 					</div>
-					<h4 class="text-center font-extrabold text-xl whitespace-nowrap">Жевательная игрушка<h4>
+					<h4 class="text-center font-extrabold text-lg whitespace-nowrap">Жевательная игрушка<h4>
 							<div class="flex text-laranja">
-								<h4 class="font-extrabold text-lg">61 руб.</h4>
+								<h4 class="font-extrabold text-base">61 руб.</h4>
 								<p class="line-through align-top text-xs  font-extrabold">69 руб.</p>
 								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
 									stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-auto cursor-pointer">
@@ -169,9 +174,9 @@
 					<div class="relative h-52 w-52 flex justify-center items-center mx-auto">
 						<img src="./src/assets/pngwing3.png" alt="" class="h-3/4">
 					</div>
-					<h4 class="text-center font-extrabold text-xl whitespace-nowrap">Перевозчик животных<h4>
+					<h4 class="text-center font-extrabold text-lg whitespace-nowrap">Перевозчик животных<h4>
 							<div class="flex text-laranja">
-								<h4 class="font-extrabold text-lg">68 руб.</h4>
+								<h4 class="font-extrabold text-base">68 руб.</h4>
 								<p class="line-through align-top text-xs  font-extrabold">72 руб.</p>
 								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
 									stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-auto cursor-pointer">
@@ -186,9 +191,9 @@
 					<div class="relative h-52 w-52 flex justify-center items-center mx-auto">
 						<img src="./src/assets/pngwing4.png" alt="" class="h-3/4">
 					</div>
-					<h4 class="text-center font-extrabold text-xl">Корм для собаки<h4>
+					<h4 class="text-center font-extrabold text-lg">Корм для собаки<h4>
 							<div class="flex text-laranja">
-								<h4 class="font-extrabold text-lg">32 руб.</h4>
+								<h4 class="font-extrabold text-base">32 руб.</h4>
 								<p class="line-through align-top text-xs  font-extrabold">37 руб.</p>
 								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
 									stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-auto cursor-pointer">
@@ -198,18 +203,15 @@
 							</div>
 				</div>
 				<!--/PRODUCT 4-->
-
-				<!-------------------REPEAT-------------------->
-
-				<!--PRODUCT 1-->
+				<!--PRODUCT 5-->
 				<div class="inline-block p-5 rounded bg-white drop-shadow-lg shadow-black space-y-2 my-10 w-100">
 					<div class="relative h-52 w-52 flex justify-center items-center mx-auto">
-						<img src="./src/assets/pngwing1.png" alt="" class="h-3/4">
+						<img src="./src/assets/pngwing5.png" alt="" class="h-3/4">
 					</div>
-					<h4 class="text-center font-extrabold text-xl">Собачий ошейник<h4>
+					<h4 class="text-center font-extrabold text-lg">Собачий ошейник<h4>
 							<div class="flex text-laranja">
-								<h4 class="font-extrabold text-lg">59 руб.</h4>
-								<p class="line-through align-top text-xs  font-extrabold">65 руб.</p>
+								<h4 class="font-extrabold text-base">119 руб.</h4>
+								<p class="line-through align-top text-xs  font-extrabold">85 руб.</p>
 								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
 									stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-auto cursor-pointer">
 									<path stroke-linecap="round" stroke-linejoin="round"
@@ -217,16 +219,16 @@
 								</svg>
 							</div>
 				</div>
-				<!--/PRODUCT 1-->
-				<!--PRODUCT 2-->
+				<!--/PRODUCT 5-->
+				<!--PRODUCT 6-->
 				<div class="inline-block p-5 rounded bg-white drop-shadow-lg shadow-black space-y-2 my-10 w-100">
 					<div class="relative h-52 w-52 flex justify-center items-center mx-auto">
-						<img src="./src/assets/pngwing2.png" alt="" class="h-3/4">
+						<img src="./src/assets/pngwing6.png" alt="" class="h-3/4">
 					</div>
-					<h4 class="text-center font-extrabold text-xl whitespace-nowrap">Жевательная игрушка<h4>
+					<h4 class="text-center font-extrabold text-lg whitespace-nowrap">Когтеточка<h4>
 							<div class="flex text-laranja">
-								<h4 class="font-extrabold text-lg">61 руб.</h4>
-								<p class="line-through align-top text-xs  font-extrabold">69 руб.</p>
+								<h4 class="font-extrabold text-base">84 руб.</h4>
+								<p class="line-through align-top text-xs  font-extrabold">67 руб.</p>
 								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
 									stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-auto cursor-pointer">
 									<path stroke-linecap="round" stroke-linejoin="round"
@@ -234,16 +236,16 @@
 								</svg>
 							</div>
 				</div>
-				<!--/PRODUCT 2-->
-				<!--PRODUCT 3-->
+				<!--/PRODUCT 6-->
+				<!--PRODUCT 7-->
 				<div class="inline-block p-5 rounded bg-white drop-shadow-lg shadow-black space-y-2 my-10 w-100">
 					<div class="relative h-52 w-52 flex justify-center items-center mx-auto">
-						<img src="./src/assets/pngwing3.png" alt="" class="h-3/4">
+						<img src="./src/assets/pngwing7.png" alt="" class="h-3/4">
 					</div>
-					<h4 class="text-center font-extrabold text-xl whitespace-nowrap">Перевозчик животных<h4>
+					<h4 class="text-center font-extrabold text-lg whitespace-nowrap">Серения<h4>
 							<div class="flex text-laranja">
-								<h4 class="font-extrabold text-lg">68 руб.</h4>
-								<p class="line-through align-top text-xs  font-extrabold">72 руб.</p>
+								<h4 class="font-extrabold text-base">184 руб.</h4>
+								<p class="line-through align-top text-xs  font-extrabold">85 руб.</p>
 								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
 									stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-auto cursor-pointer">
 									<path stroke-linecap="round" stroke-linejoin="round"
@@ -251,16 +253,16 @@
 								</svg>
 							</div>
 				</div>
-				<!--/PRODUCT 3-->
-				<!--PRODUCT 4-->
+				<!--/PRODUCT 7-->
+				<!--PRODUCT 8-->
 				<div class="inline-block p-5 rounded bg-white drop-shadow-lg shadow-black space-y-2 my-10 w-100">
 					<div class="relative h-52 w-52 flex justify-center items-center mx-auto">
-						<img src="./src/assets/pngwing4.png" alt="" class="h-3/4">
+						<img src="./src/assets/pngwing8.png" alt="" class="h-3/4">
 					</div>
-					<h4 class="text-center font-extrabold text-xl">Корм для собаки<h4>
+					<h4 class="text-center font-extrabold text-lg">натуральный корм<h4>
 							<div class="flex text-laranja">
-								<h4 class="font-extrabold text-lg">32 руб.</h4>
-								<p class="line-through align-top text-xs  font-extrabold">37 руб.</p>
+								<h4 class="font-extrabold text-base">62 руб.</h4>
+								<p class="line-through align-top text-xs  font-extrabold">99 руб.</p>
 								<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
 									stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-auto cursor-pointer">
 									<path stroke-linecap="round" stroke-linejoin="round"
@@ -268,18 +270,18 @@
 								</svg>
 							</div>
 				</div>
-				<!--/PRODUCT 4-->
+				<!--/PRODUCT 8-->
 
 			</div>
+
 			<!--/CONTENT CARROSSEL-->
 			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-				stroke="currentColor" class="carousel-next w-10 h-10 absolute top-1/2 -right-10 z-40 -translate-y-1/2"
+				stroke="currentColor" class="carousel-next w-10 h-10 absolute top-1/2 -right-14 z-40 -translate-y-1/2 cursor-pointer"
 				id="carousel-next">
 				<path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
 			</svg>
 		</div>
 		<!--/CONTAINER CARROSSEL-->
-
 	</div>
 
 
