@@ -3,7 +3,6 @@
 	clear: both;
 	display: table;
 }
-
 /*------*/
 /*HEADER*/
 .content {
@@ -38,7 +37,6 @@
 	right: -2.5rem;
 	z-index: -100;
 }
-
 /*------*/
 /*SCROLL PRODUCT*/
 .scroll-product::-webkit-scrollbar {
