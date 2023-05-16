@@ -8,7 +8,7 @@ module.exports = {
         100: "32rem",
         102: "34rem",
         110: "40rem",
-        'bdm': "calc(100vw - 2.5rem)",
+        bdm: "calc(100vw - 2.5rem)",
       },
       screens: {
         xl: { min: "1024px" },
@@ -26,9 +26,10 @@ module.exports = {
       colors: {
         azul: "#89E8EC",
         laranja: "#E9473C",
+        coral: "#FFD8D8",
+        coraldark: "#F1ADAD",
       },
     },
   },
   plugins: [],
 };
-
