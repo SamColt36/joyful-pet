@@ -14,9 +14,11 @@
 	<title>Joyful Pet</title>
 	<link rel="icon" type="png" href="fav-icon.png">
 	<script src="./src/js/carousel.js"></script>
+	<script src="./src/js/scroll.js"></script>
+
 </head>
 
-<body class="font-sans">
+<body class="font-sans" id="start">
 	<header>
 		<!--nav-->
 		<div class="relative mx-auto px-2 max-w-6xl h-20 flex items-center justify-center">
@@ -25,7 +27,6 @@
 				<img src="./src/assets/logo-joyful-pet.png" alt="Logo corporativo Joyful Pet" class="h-12">
 			</div>
 			<!--/logo-->
-
 			<!--links-->
 			<div class="xs:hidden sm:hidden md:hidden flex items-center justify-between">
 				<div class="text-black block space-x-10 lg:space-x-4">
@@ -87,7 +88,6 @@
 						друзей</a>
 				</div>
 			</div>
-
 			<div class="w-1/2 h-100 lg:h-110 sm:h-96 sm:bg-azul sm:w-bdm sm:float-none md:h-96 md:bg-azul md:w-bdm md:float-none lg:bg-azul lg:float-none lg:w-bdm float-right"
 				id="box-dog">
 				<div class="relative">
@@ -99,12 +99,10 @@
 						class="w-96 h-96 bg-laranja absolute sm:w-full sm:h-full md:w-full md:h-full lg:w-full lg:h-full"></span>
 				</div>
 			</div>
-
 			<span class="clearfix sm:hidden"></span>
 		</div>
 	</div>
 	<!--/Banner-->
-
 	<!--Section Product-->
 	<div class="mx-auto px-2 max-w-6xl my-20 sm:px-5 md:px-5 lg:px-10">
 		<div class="flex items-end sm:block md:block lg:justify-between">
@@ -298,7 +296,6 @@
 		</span>
 	</div>
 	<!--/Section Product-->
-
 	<!--Section Galeria-->
 	<div class="mx-auto my-20 px-2 max-w-6xl sm:px-5 md:px-5 lg:px-10">
 		<h3 class="text-2xl font-extrabold sm:block sm:text-3xl md:block md:text-3xl lg:text-4xl py-6">Наша галерея</h3>
@@ -330,7 +327,6 @@
 		<!--/Container com imagens-->
 	</div>
 	<!--/Section Galeria-->
-
 	<div class="mx-auto my-20 px-2 max-w-6xl flex justify-between sm:block sm:px-5 md:block md:px-5 lg:block lg:px-0">
 		<!--Box Parágrafo-->
 		<div class="lg:text-center">
@@ -359,24 +355,21 @@
 			</a>
 		</div>
 		<!--/Box Parágrafo-->
-
 		<!--Imagens de mulheres com gato-->
 		<div class="py-4 lg:px-5 lg:py-16">
 			<img src="./src/assets/article.png" alt=""
 				class="saturate-50 hover:saturate-100 transition-all duration-200 ease-in-out cursor-pointer lg:mx-auto lg:w-full">
 		</div>
 		<!--/Imagens de mulheres com gato-->
-
 	</div>
-
 	<footer
 		class="p-5 w-full bg-footer relative mx-auto flex items-center justify-center sm:block sm:p-2 md:p-2 md:block lg:block">
 		<!--logo-->
-		<div class="relative flex justify-center shrink-0 items-center mr-auto z-10 sm:my-6 md:my-6 lg:justify-start lg:my-3">
+		<div
+			class="relative flex justify-center shrink-0 items-center mr-auto z-10 sm:my-6 md:my-6 lg:justify-start lg:my-3">
 			<img src="./src/assets/logo-joyful-pet-white.png" alt="Logo corporativo Joyful Pet" class="h-12">
 		</div>
 		<!--/logo-->
-
 		<!--links-->
 		<div class="flex items-center justify-center sm:block md: lg:block">
 			<div class="block space-x-10 sm:space-x-2 lg:space-x-4 text-white text-center lg:text-left">
@@ -384,8 +377,8 @@
 				<a href="" class="lg:text-base">Друзья</a>
 				<a href="" class="lg:text-base">О сервисе</a>
 				<a href="" class="lg:text-base">Контакты</a>
-				<a href=""
-					class="p-3 border-2 rounded-full sm:border-0 sm:rounded-none sm:hidden md:hidden md:border-0 md:rounded-none lg:my-3 lg:text-base lg:hidden">
+				<a href="#start"
+					class="scroll-smooth p-3 border-2 rounded-full sm:border-0 sm:rounded-none sm:hidden md:hidden md:border-0 md:rounded-none lg:my-3 lg:text-base lg:hidden">
 					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
 						stroke="currentColor" class="w-6 h-6 inline">
 						<path stroke-linecap="round" stroke-linejoin="round"
@@ -393,13 +386,16 @@
 					</svg>
 				</a>
 			</div>
-
-			<div class="relative flex shrink-0 justify-between items-center text-white sm:flex-col md:flex-col lg:flex-col">
-				<p class="px-8 sm:px-0 sm:my-3 md:my-3 md:px-0 lg:py-3 lg:px-0 lg:font-extrabold lg:text-lg lg:mr-auto lg:my-3">+385
+			<div
+				class="relative flex shrink-0 justify-between items-center text-white sm:flex-col md:flex-col lg:flex-col">
+				<p
+					class="px-8 sm:px-0 sm:my-3 md:my-3 md:px-0 lg:py-3 lg:px-0 lg:font-extrabold lg:text-lg lg:mr-auto lg:my-3">
+					+385
 					35-23-34-45-99</p>
 				<p class="px-8 py-2 border-2 border-white sm:my-3 md:my-3 lg:mr-auto lg:my-3">Заказать звонок</p>
 				<!--link para o topo-->
-				<a href="" class="hidden sm:inline sm:text-xs md:text-sm lg:absolute lg:bottom-4 lg:right-4 lg:text-base sm:my-6 md:my-6 md:inline lg:block lg:w-full">
+				<a href="#start"
+					class="scroll-smooth hidden sm:inline sm:text-xs md:text-sm lg:absolute lg:bottom-4 lg:right-4 lg:text-base sm:my-6 md:my-6 md:inline lg:block lg:w-full">
 					<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
 						stroke="currentColor" class=" w-6 h-6 lg:w-8 lg:h-8 lg:ml-auto">
 						<path stroke-linecap="round" stroke-linejoin="round"
@@ -407,7 +403,6 @@
 					</svg>
 				</a>
 				<!--/link para o topo-->
-
 			</div>
 		</div>
 		<!--/links-->
