@@ -1,4 +1,4 @@
-/** @type {import('tailwindcss').Config} */
+/** @type {import(tailwindcss').Config} */
 module.exports = {
   content: ["*.{html,js}"],
   theme: {
@@ -28,6 +28,7 @@ module.exports = {
         laranja: "#E9473C",
         coral: "#FFD8D8",
         coraldark: "#F1ADAD",
+        footer: "#757575",
       },
     },
   },
