@@ -16,7 +16,7 @@ O objetivo deste projeto é **codificar** uma interface criada no [figma]((https
 ## Como Acessar o Projeto
 
 Para acessar o projeto, você pode clonar o repositório em seu computador e abrir o arquivo `index.html` em seu navegador. Alternativamente, você pode acessar a página ao vivo neste [link*](https://samcolt36.github.io/joyful-pet/).
->(*) Em produção.
+>(*) Finalizado.
 
 ## Tecnologias Utilizadas
 
